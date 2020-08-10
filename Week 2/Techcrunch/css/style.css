@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header {
+  float: left;
+  clear: both;
+  height: 160px;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  width: 20%;
+  height: 160px;
+  padding-left: 10px;
+}
+
+.menu {
+  float: left;
+  width: 50%;
+  height: 160px;
+  padding-left: 10px;
+}
+
+.grey {
+  color: #828487;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.green {
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.icons {
+  float: left;
+  width: 30%;
+  height: 160px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  word-spacing: 15px;
+}
+
+li {
+  display: inline-block;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.top {
+  padding-top: 10px;
+}
+
+.topicons {
+  float: left;
+  width: 100%;
+  clear: right;
+  height: 75px;
+  clear: right;
+}
+
+.topicons {
+  float: left;
+  width: 100%;
+  clear: right;
+  height: 76px;
+}
+
+.topicons button {
+  background-color: #3E433E;
+  color: white;
+  height: 35px;
+}
+
+.topicons button img {
+  width: 20%;
+}
+
+.btn {
+  padding-right: 10px;
+}
+
+input {
+  height: 35px;
+  padding-top: 12px;
+}
+
+.bar {
+  height: 60px;
+  float: right;
+  clear: both;
+  width: 100%;
+  background-color: #0F4A00;
+  text-align: center;
+  color: white;
+}
+
+.bld {
+  font-weight: 800;
+}
+
+.bld2 {
+  font-weight: 600;
+}
+
+.big {
+  width: 95%;
+}
+
+.mid {
+  float: left;
+  height: 700px;
+  clear: both;
+  width: 100%;
+}
+
+.col1 {
+  float: left;
+  width: 49%;
+  height: 700px;
+  padding-left: 20px;
+}
+
+figcaption {
+  color: #828487;
+  font-size: 20px;
+  font-weight: 500;
+  width: 70%;
+}
+
+.col2 {
+  float: left;
+  width: 20%;
+  height: 700px;
+}
+
+.col3 {
+  float: left;
+  width: 25%;
+  height: 700px;
+  padding-top: 40px;
+  background-color: #ECECEC;
+  padding: 20px;
+}
+
+.col3top {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 150px;
+  background-color: #ECECEC;
+  border-top: 10px solid #D5D5D5;
+  border-bottom: 10px solid #D5D5D5;
+}
+
+.col3btm {
+  float: left;
+  clear: both;
+  background-color: white;
+  height: 600px;
+  width: 100%;
+}
+
+.col1 h1 {}
+
+.green2 {
+  color: green;
+}
+
+.grey2 {
+  color: #828487;
+}
+
+table {
+  width: 80%;
+}
+
+.news {
+  float: left;
+  width: 100%;
+  clear: both;
+  height: 60px;
+  background-color: #0F4A00;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.checkk {
+  padding-left: 20px;
+}
+
+.sub {
+  background-color: #0A9600;
+  width: 130px;
+  height: 34px;
+  color: white;
+  font-weight: 200;
+  border: 0px;
+  padding-top: 12px;
+}

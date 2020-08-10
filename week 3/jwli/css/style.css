@@ -1,0 +1,1076 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  height: 60px;
+  background-color: white;
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding-right: 80px;
+  text-align: center;
+  font-size: 23px;
+  color: black;
+}
+
+li button {
+  width: 160px;
+  height: 38px;
+  background-color: #333942;
+  color: white;
+}
+
+.hero {
+  float: left;
+  width: 100%;
+  clear: both;
+  height: 450px;
+  background-color: #F1F3F5;
+}
+
+.hero-left {
+  float: left;
+  width: 40%;
+  text-align: left;
+  margin-top: 90px;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+.hero-right {
+  float: right;
+  width: 40%;
+  clear: right;
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
+
+.email {
+  font-size: 15px;
+}
+
+.hero-left h3 {
+  padding-bottom: 10px;
+  color: #333942;
+  font-family: sans-serif;
+}
+
+.hero-left p {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+.hero-left input, .news-right input {
+  margin-right: 15px;
+  width: 300px;
+  height: 45px;
+  padding-left: 7px;
+}
+
+.hero-left button, .news-right button {
+  width: 120px;
+  height: 45px;
+}
+
+.empower {
+  background-color: white;
+  height: 400px;
+  float: left;
+  width: 100%;
+  clear: both;
+  font-size: 20px;
+}
+
+.top {
+  float: left;
+  width: 80%;
+  clear: both;
+  text-align: center;
+  font-size: 35px;
+  padding-left: 200px;
+  padding-top: 40px;
+}
+
+.mid1 {
+  float: left;
+  width: 50%;
+  padding-left: 200px;
+  padding-top: 40px;
+  padding-right: 200px;
+  clear: left;
+}
+
+.mid2 {
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+  padding-right: 200px;
+}
+
+.btm {
+  float: left;
+  width: 100%;
+  clear: both;
+  padding-left: 200px;
+  padding-top: 40px;
+  color: grey;
+}
+
+.bold {
+  font-weight: bold;
+  border-top: 4px solid pink;
+  padding-top: 10px;
+}
+
+.history {
+  background-color: #F1F3F5;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 850px;
+}
+
+.history-left {
+  float: left;
+  width: 40%;
+  font-weight: lighter;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 200px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.history-right {
+  float: left;
+  width: 40%;
+  clear: right;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+
+.history-right img {
+  padding-bottom: 10px;
+}
+
+figcaption {
+  color: grey;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.who {
+  background-color: white;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 850px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.who h3 {
+  font-size: 30px;
+}
+
+.atsuko {
+  width: 80%;
+  height: 320px;
+  border: 1px solid #ccc;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.atsuko img {
+  float: left;
+  width: 20%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.atsuko span {
+  text-align: left;
+  font-weight: bold;
+}
+
+.atsuko p {
+  float: left;
+  width: 70%;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+.newsletter {
+  background-color: #B8C5D0;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 80px;
+}
+
+.fish {
+  float: left;
+  width: 40%;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.simon {
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding-top: 50px;
+  padding-right: 60px;
+  padding-bottom: 70px;
+  font-size: 20px;
+  padding-left: 100px;
+  clear: right;
+  font-family: sans-serif;
+}
+
+.fish img {
+  padding-bottom: 20px;
+}
+
+.simon img {}
+
+.news-left {
+  float: left;
+  width: 45%;
+  padding-left: 140px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.news-right {
+  float: right;
+  width: 45%;
+}
+
+.news-left {
+  padding-top: 20px;
+}
+
+.news-right {
+  padding-top: 20px;
+}
+
+.news-right input {}
+
+footer {
+  height: 280px;
+  width: 100%;
+  float: left;
+  clear: both;
+  background-color: #8F9CA3;
+}
+
+.copyright {
+  float: left;
+  width: 45%;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 150px;
+}
+
+.socials {
+  float: right;
+  width: 45%;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.socials span {
+  padding-right: 20px;
+}
+
+.footerNav {
+  float: left;
+  width: 100%;
+  clear: both;
+  padding-left: 220px;
+  padding-top: 40px;
+}
+
+.list {
+  list-style: none;
+  display: inline-block;
+  padding-right: 80px;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  padding-top: 20px;
+}
+
+.footerNav ul li {
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1100px) {
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+  }
+
+  .hero {
+    float: left;
+    width: 100%;
+    clear: both;
+    height: 600px;
+    background-color: #F1F3F5;
+  }
+
+  .hero-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 90px;
+    font-size: 25px;
+    margin-left: 100px;
+  }
+
+  .hero-right {
+    float: right;
+    width: 40%;
+    clear: right;
+    margin-top: 35px;
+    padding-bottom: 20px;
+  }
+
+  .empower {
+    background-color: white;
+    height: 500px;
+    float: left;
+    width: 100%;
+    clear: both;
+    font-size: 20px;
+  }
+
+  .top {
+    float: left;
+    width: 80%;
+    clear: both;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 200px;
+    padding-top: 40px;
+  }
+
+  .mid1 {
+    float: left;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-right: 200px;
+    clear: left;
+  }
+
+  .mid2 {
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    padding-right: 200px;
+  }
+
+  .btm {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-left: 130px;
+    padding-top: 40px;
+    color: grey;
+  }
+
+  .history {
+    background-color: #F1F3F5;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 900px;
+  }
+
+  .history-left {
+    float: left;
+    width: 40%;
+    font-weight: lighter;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .history-right {
+    float: left;
+    width: 40%;
+    clear: right;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+
+  .history-right img {
+    padding-bottom: 10px;
+  }
+
+  figcaption {
+    color: grey;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .who {
+    background-color: white;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 850px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .who h3 {
+    font-size: 30px;
+  }
+
+  .atsuko {
+    width: 80%;
+    height: 320px;
+    border: 1px solid #ccc;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .atsuko img {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .atsuko span {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .atsuko p {
+    float: left;
+    width: 70%;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family: sans-serif;
+  }
+
+  .newsletter {
+    background-color: #B8C5D0;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 80px;
+  }
+
+  .fish {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  .simon {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+    font-size: 15px;
+    padding-left: 200px;
+    clear: right;
+    font-family: sans-serif;
+  }
+
+  .fish img {
+    padding-bottom: 20px;
+  }
+
+  .simon img {}
+
+  .news-left {
+    float: left;
+    width: 45%;
+    padding-left: 140px;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .news-right {
+    float: right;
+    width: 45%;
+  }
+
+  .news-left {
+    padding-top: 20px;
+  }
+
+  .news-right {
+    padding-top: 20px;
+  }
+
+  .news-right input {}
+
+  footer {
+    height: 70px;
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: #8F9CA3;
+  }
+
+  .copyright {
+    float: left;
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 150px;
+  }
+
+  .socials {
+    float: right;
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .socials span {
+    padding-right: 20px;
+  }
+
+  .footerNav {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-left: 220px;
+    padding-top: 40px;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+  header {
+    height: 60px;
+    background-color: white;
+    float: left;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+  }
+
+  .hero {
+    float: left;
+    width: 100%;
+    clear: both;
+    height: 600px;
+    background-color: #F1F3F5;
+  }
+
+  .hero-left {
+    float: left;
+    width: 80%;
+    text-align: left;
+    margin-top: 90px;
+    font-size: 25px;
+    margin-left: 90px;
+  }
+
+  .hero-right {
+    float: right;
+    width: 40%;
+    clear: right;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    display: none;
+  }
+
+  .empower {
+    background-color: white;
+    height: 500px;
+    float: left;
+    width: 100%;
+    clear: both;
+    font-size: 20px;
+  }
+
+  .top {
+    float: left;
+    width: 80%;
+    clear: both;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 180px;
+    padding-top: 40px;
+  }
+
+  .mid1 {
+    float: left;
+    width: 100%;
+    padding-left: 130px;
+    padding-top: 40px;
+    padding-right: 200px;
+    clear: left;
+  }
+
+  .mid2 {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 200px;
+    padding-left: 130px;
+  }
+
+  .btm {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: grey;
+  }
+
+  .history {
+    background-color: #F1F3F5;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 1100px;
+  }
+
+  .history-left {
+    float: left;
+    width: 100%;
+    font-weight: lighter;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 0px;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .history-right {
+    float: left;
+    width: 100%;
+    clear: right;
+    margin-left: 0px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .history-right img {
+    padding-bottom: 10px;
+  }
+
+  figcaption {
+    color: grey;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 400px;
+  }
+
+  .who {
+    background-color: white;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .who h3 {
+    font-size: 30px;
+  }
+
+  .atsuko {
+    width: 80%;
+    height: 320px;
+    border: 1px solid #ccc;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+
+  .atsuko img {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .atsuko span {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .atsuko p {
+    float: left;
+    width: 80%;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  .newsletter {
+    background-color: #B8C5D0;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 80px;
+  }
+
+  .fish {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: none;
+  }
+
+  .simon {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+    font-size: 15px;
+    padding-left: 200px;
+    clear: right;
+    font-family: sans-serif;
+    display: none;
+  }
+
+  .fish img {
+    padding-bottom: 20px;
+  }
+
+  .simon img {}
+
+  .news-left {
+    float: left;
+    width: 45%;
+    padding-left: 140px;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  .news-right {
+    float: right;
+    width: 45%;
+  }
+
+  .news-left {
+    padding-top: 20px;
+  }
+
+  .news-right {
+    padding-top: 20px;
+  }
+
+  .news-right input {
+    width: 160px;
+  }
+
+  footer {
+    height: 75px;
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: #8F9CA3;
+  }
+
+  .copyright {
+    float: left;
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 150px;
+  }
+
+  .socials {
+    float: right;
+    width: 45%;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .socials span {
+    padding-right: 20px;
+  }
+
+  .footerNav {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-left: 220px;
+    padding-top: 40px;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+  }
+
+  .hero {
+    float: left;
+    width: 100%;
+    clear: both;
+    height: 600px;
+    background-color: #F1F3F5;
+  }
+
+  .hero-left {
+    float: left;
+    width: 80%;
+    text-align: left;
+    margin-top: 90px;
+    font-size: 25px;
+    margin-left: 90px;
+  }
+
+  .hero-right {
+    float: right;
+    width: 40%;
+    clear: right;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    display: none;
+  }
+
+  .empower {
+    background-color: white;
+    height: 650px;
+    float: left;
+    width: 100%;
+    clear: both;
+    font-size: 20px;
+  }
+
+  .top {
+    float: left;
+    width: 80%;
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 40px;
+    text-align: left;
+  }
+
+  .mid1 {
+    float: left;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-right: 200px;
+    clear: left;
+  }
+
+  .mid2 {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .btm {
+    float: left;
+    width: 90%;
+    clear: both;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: grey;
+  }
+
+  .history {
+    background-color: #F1F3F5;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 1200px;
+  }
+
+  .history-left {
+    float: left;
+    width: 100%;
+    font-weight: lighter;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 0px;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .history-right {
+    float: left;
+    width: 100%;
+    clear: right;
+    margin-left: 0px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .history-right img {
+    padding-bottom: 10px;
+  }
+
+  figcaption {
+    color: grey;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 400px;
+  }
+
+  .who {
+    background-color: white;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .who h3 {
+    font-size: 30px;
+  }
+
+  .atsuko {
+    width: 90%;
+    height: 270px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .atsuko img {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .atsuko span {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .atsuko p {
+    float: left;
+    width: 80%;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+
+  .fish, .simon {
+    display: none;
+  }
+
+  .newsletter {
+    display: none;
+  }
+
+  footer {
+    height: 75px;
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: #8F9CA3;
+    display: none;
+  }
+}

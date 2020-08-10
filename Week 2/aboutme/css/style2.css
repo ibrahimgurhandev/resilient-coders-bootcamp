@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header {
+  float: left;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+  height: 120px;
+  clear: both;
+  font-size: 30px;
+}
+
+header nav {
+  padding-top: 20px;
+  word-spacing: 5 px;
+}
+
+li {
+  width: 20%;
+  text-align: center;
+}
+
+a {
+  color: black;
+  padding-left: 20px;
+}
+
+.main {}

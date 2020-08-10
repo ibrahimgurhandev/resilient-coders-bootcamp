@@ -1,0 +1,163 @@
+* {
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */
+}
+
+body {
+  height: 100%;
+  background-color: #F5F6F7;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+header {
+  background-color: #1877F2;
+  height: 100px;
+}
+
+.logo {
+  float: left;
+  width: 20%;
+  min-width: 150px;
+  padding: 10px 0px 0px 100px;
+}
+
+.form1 {
+  float: right;
+  width: 50%;
+  padding-top: 20px;
+  padding-right: 30px;
+  height: 10%;
+}
+
+.lab {
+  display: block;
+  position: relative;
+  top: -3em;
+}
+
+.label1 {
+  display: block;
+  top: 1em;
+  text-align: center;
+  color: white;
+  padding-right: 6em;
+}
+
+.mid {
+  background-color: #F5F6F7;
+  height: 700px;
+  width: 100%;
+}
+
+.rightsec {
+  float: left;
+  width: 50%;
+}
+
+.leftsec {
+  float: left;
+  width: 50%;
+  padding: 55px 100px 0px 100px;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+li {
+  padding-bottom: 20px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+li>img {
+  padding-right: 15px;
+}
+
+li>span {
+  font-weight: 600;
+}
+
+.birth {
+  padding-top: 20px;
+}
+
+.gender {
+  padding-top: 20px;
+}
+
+.btn {
+  border: 1px solid black;
+  color: black;
+  border-color: white;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+}
+
+.signup {
+  padding: 10px 30px;
+  border: 1px solid #00A400;
+  background-color: #00A400;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 30px;
+}
+
+.bt1 {
+  display: inline-block;
+  text-align: center;
+  padding-left: 80px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.form2 {
+  padding-bottom: 20px;
+}
+
+.bt1 p {
+  padding-top: 20px;
+  display: inline-block;
+  word-spacing: 2px;
+}
+
+.bt1 p span {
+  font-weight: bold;
+  color: black;
+}
+
+form p {
+  width: 70%;
+  color: #858585;
+  font-size: 10px;
+}
+
+.login {
+  background-color: #0E52B0;
+  color: white;
+  border-color: #0E52B0;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}

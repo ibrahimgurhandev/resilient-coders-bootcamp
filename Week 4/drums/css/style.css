@@ -1,0 +1,117 @@
+html {
+  font-size: 10px;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.imagecontainer {
+  white-space: nowrap;
+  text-align: center;
+  /* make bottom padding same as top padding by removing line-height */
+  vertical-align: middle;
+}
+
+.image {
+  background-image: ;
+  display: inline-block;
+  padding: 25vh;
+  /* background-size: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin-top: 0px;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+}
+
+.msg p {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  background-color: #2E282A;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.keys {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+}
+
+/*
+got this from a grid generator, to make the grid shrink  */
+.grid-container--fit {
+  padding-left: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  transition: all 1.09s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+.drum-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.drum {
+  width: 30%;
+  max-width: 350px;
+  min-width: 250px;
+}
+
+.stick {
+  width: 40%;
+  z-index: 2;
+  position: absolute;
+  max-width: 200px;
+  margin: -195px 0px 0px -98px;
+}

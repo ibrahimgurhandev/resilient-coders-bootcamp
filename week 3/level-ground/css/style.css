@@ -1,0 +1,900 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  height: 600px;
+  background-color: #66768A;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.header-items {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu {
+  float: left;
+  width: 33.3333%;
+}
+
+.menu nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.logo {
+  float: left;
+  width: 33.3333%;
+}
+
+.logo img {
+  width: 25%;
+  margin-top: -25px;
+}
+
+.logo img:hover {
+  transform: scale(1.4);
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.donate {
+  float: left;
+  width: 33.3333%;
+}
+
+.donate-btn {
+  height: 40px;
+  width: 80px;
+  color: #66768A;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 20px;
+}
+
+/* got this from the reading */
+.donate-btn:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
+  color: black;
+}
+
+.bigheadline {
+  float: left;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  font-size: 3vw;
+  color: white;
+}
+
+.play2 {
+  padding-top: 40px;
+}
+
+.text {
+  font-size: 1.7vw;
+  width: 80%;
+  text-align: center;
+  padding-left: 250px;
+}
+
+.why {
+  float: left;
+  width: 40%;
+  clear: both;
+  text-align: center;
+  margin-left: 330px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.why p {
+  font-size: 1.6vw;
+}
+
+.visit {
+  background-color: #DBDFE2;
+  height: 600px;
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+.col {
+  float: left;
+  width: 50%;
+}
+
+.box {
+  float: left;
+  width: 70%;
+  clear: both;
+  border: 1px solid #ccc;
+  background-color: #66768A;
+  height: 200px;
+  margin-left: 100px;
+  margin-top: 90px;
+}
+
+/* .box:first-child {
+  padding-right: 20px;
+} */
+.visitgym {
+  float: left;
+  width: 50%;
+  clear: both;
+  margin-left: 150px;
+  margin-top: 60px;
+  color: #66768A;
+}
+
+.visitgym h3 {
+  padding-bottom: 20px;
+  color: black;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  background-color: #DBDFE2;
+  border: 1px solid black;
+}
+
+.btn2 {
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
+  color: black;
+}
+
+.btn2:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
+  color: black;
+}
+
+footer {
+  height: 280px;
+  float: left;
+  width: 100%;
+  clear: both;
+  background-color: #161F2A;
+}
+
+.footerLeft {
+  float: left;
+  width: 30%;
+  height: 200px;
+}
+
+.footerLeft img {
+  margin-left: 20px;
+  width: 10%;
+  padding-top: 10px;
+}
+
+.footerLeft h4 {
+  color: #66768A;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.footerLeft h5 {
+  color: white;
+  margin-left: 20px;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footerRight {
+  float: right;
+  width: 30%;
+  clear: right;
+  height: 200px;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 35px;
+}
+
+.footerBtm {
+  float: left;
+  width: 95%;
+  clear: both;
+  height: 50px;
+  color: white;
+  border-top: 1px solid white;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.footerBtm p {
+  margin-left: -30px;
+  float: left;
+  width: 70%;
+}
+
+.footerRight address {
+  padding-top: 15px;
+}
+
+a {
+  color: #66768A;
+  text-decoration: none;
+}
+
+.logo3 {
+  height: 70px;
+  width: 80px;
+  float: right;
+  padding-bottom: 0px;
+  margin-top: -25px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.logo2 {
+  display: none;
+}
+
+.logo4 {
+  display: none;
+}
+
+.logo5 {
+  display: none;
+}
+
+@media only screen and (min-width: 1400px) {
+  header {
+    height: 900px;
+    background-color: #66768A;
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+
+  .text {
+    font-size: 2.5vw;
+    width: 80%;
+    text-align: center;
+    padding-left: 250px;
+  }
+
+  .why {
+    float: left;
+    width: 40%;
+    clear: both;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .why p {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 960px) {
+  .header-items {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .menu {
+    float: left;
+    width: 33.3333%;
+  }
+
+  .menu nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    float: left;
+    width: 33.3333%;
+  }
+
+  .logo img {
+    width: 25%;
+    margin-top: -25px;
+  }
+
+  .donate {
+    float: left;
+    width: 33.3333%;
+  }
+
+  .donate-btn {
+    height: 40px;
+    width: 80px;
+    color: #66768A;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 20px;
+  }
+
+  .bigheadline {
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+  }
+
+  .play2 {
+    padding-top: 40px;
+  }
+
+  .text {
+    font-size: 1.7vw;
+    width: 80%;
+    text-align: center;
+    padding-left: 150px;
+  }
+
+  header {
+    height: 400px;
+    background-color: #66768A;
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+
+  .col {
+    float: left;
+    width: 100%;
+  }
+
+  .visit {
+    height: 1050px;
+  }
+
+  .box {
+    float: left;
+    width: 50%;
+    clear: both;
+    border: 1px solid #ccc;
+    background-color: #66768A;
+    height: 200px;
+    margin-left: 230px;
+    margin-top: 90px;
+  }
+
+  .visitgym {
+    float: left;
+    width: 50%;
+    clear: both;
+    margin-left: 230px;
+    margin-top: 60px;
+    color: #66768A;
+  }
+
+  .why {
+    float: left;
+    width: 40%;
+    clear: both;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .why p {
+    font-size: 1.9vw;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .logo4 {
+    display: none;
+  }
+
+  .logo5 {
+    display: none;
+  }
+
+  .footerBtm {
+    float: left;
+    width: 95%;
+    clear: both;
+    height: 50px;
+    color: white;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .footerBtm p {
+    margin-left: -0px;
+    float: left;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .header-items {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .mobile-menu {
+    float: right;
+    margin: 0px 20px 0px 0px;
+    display: block;
+  }
+
+  .mobile-menu img {
+    border-radius: 3px;
+    border: 1px solid white;
+    width: 30px;
+  }
+
+  .mobile-menu img:hover {
+    border-radius: 2px;
+    border: 1px solid red;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    float: left;
+    width: 50%;
+    clear: none;
+  }
+
+  .logo img {
+    width: 40%;
+    margin-top: -45px;
+    margin-right: 150px;
+  }
+
+  .donate {
+    display: none;
+  }
+
+  .donate-btn {
+    height: 40px;
+    width: 80px;
+    color: #66768A;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 20px;
+  }
+
+  .bigheadline {
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    margin-top: -40px;
+  }
+
+  .play2 {
+    padding-top: 10px;
+  }
+
+  .text {
+    font-size: 3vw;
+    width: 80%;
+    text-align: center;
+    padding-left: 100px;
+  }
+
+  header {
+    height: 400px;
+    background-color: #66768A;
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+
+  .col {
+    float: left;
+    width: 100%;
+  }
+
+  .visit {
+    height: 1090px;
+  }
+
+  .box {
+    float: left;
+    width: 50%;
+    clear: both;
+    border: 1px solid #ccc;
+    background-color: #66768A;
+    height: 200px;
+    margin-left: 130px;
+    margin-top: 40px;
+  }
+
+  .visitgym {
+    float: left;
+    width: 50%;
+    clear: both;
+    margin-left: 130px;
+    margin-top: 60px;
+    color: #66768A;
+  }
+
+  .why {
+    float: left;
+    width: 60%;
+    clear: both;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .why p {
+    font-size: 2.5vw;
+  }
+
+  footer {
+    height: 161px;
+    float: left;
+    width: 100%;
+    clear: both;
+    background-color: #161F2A;
+  }
+
+  .footerLeft {
+    float: left;
+    width: 30%;
+    height: 160px;
+  }
+
+  .footerLeft img {
+    margin-left: 20px;
+    width: 10%;
+    padding-top: 10px;
+  }
+
+  .footerLeft h4 {
+    color: #66768A;
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+
+  .footerLeft h5 {
+    color: white;
+    margin-left: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .footerRight {
+    float: right;
+    width: 30%;
+    clear: right;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 35px;
+  }
+
+  .footerBtm {
+    float: left;
+    width: 95%;
+    clear: both;
+    height: 50px;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 20px;
+    display: none;
+  }
+
+  .footerBtm p {
+    margin-left: -20px;
+    float: left;
+    width: 80%;
+  }
+
+  .footerRight address {
+    padding-top: 15px;
+  }
+
+  a {
+    color: #66768A;
+    text-decoration: none;
+  }
+
+  .logo3 {
+    width: 13%;
+    float: right;
+    padding-bottom: -60px;
+    margin-top: -20px;
+    display: none
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .logo4 {
+    float: left;
+    width: 20%;
+    display: block;
+  }
+
+  .logo5 {
+    float: left;
+    width: 100%;
+    margin-left: 40px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-items {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .mobile-menu {
+    float: right;
+    margin: 0px 20px 0px 0px;
+    display: block;
+  }
+
+  .mobile-menu img {
+    border-radius: 3px;
+    border: 1px solid white;
+    width: 30px;
+  }
+
+  .mobile-menu img:hover {
+    border-radius: 3px;
+    border: 3px solid #ccc;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .logo {
+    float: left;
+    width: 50%;
+    clear: none;
+  }
+
+  .logo img {
+    width: 40%;
+    margin-top: -33px;
+    margin-right: 150px;
+  }
+
+  .donate {
+    display: none;
+  }
+
+  .donate-btn {
+    height: 40px;
+    width: 80px;
+    color: #66768A;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 20px;
+  }
+
+  /* got this from the reading */
+  .donate-btn:hover {
+    transform: scale(1.5);
+  }
+
+  .bigheadline {
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+  }
+
+  .play2 {
+    padding-top: 40px;
+    margin-left: 15px;
+  }
+
+  /* got this from the reading */
+  .play2:hover {
+    transform: scale(1.5);
+  }
+
+  .text {
+    font-size: 3vw;
+    width: 80%;
+    text-align: center;
+    padding-left: 100px;
+  }
+
+  header {
+    height: 400px;
+    background-color: #66768A;
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+
+  .col {
+    float: left;
+    width: 100%;
+  }
+
+  .visit {
+    height: 1090px;
+  }
+
+  .box {
+    float: left;
+    width: 50%;
+    clear: both;
+    border: 1px solid #ccc;
+    background-color: #66768A;
+    height: 200px;
+    margin-left: 130px;
+    margin-top: 40px;
+  }
+
+  .visitgym {
+    float: left;
+    width: 50%;
+    clear: both;
+    margin-left: 130px;
+    margin-top: 60px;
+    color: #66768A;
+  }
+
+  .why {
+    float: left;
+    width: 68%;
+    clear: both;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .why p {
+    font-size: 2.8vw;
+  }
+
+  footer {
+    height: 53px;
+    float: left;
+    width: 100%;
+    clear: both;
+    background-color: #161F2A;
+  }
+
+  .footerLeft {
+    float: left;
+    width: 30%;
+    height: 16px;
+  }
+
+  .footerLeft img {
+    margin-left: 20px;
+    width: 10%;
+    padding-top: 15px;
+  }
+
+  .footerLeft h4 {
+    display: none;
+  }
+
+  .footerLeft h5 {
+    display: none;
+  }
+
+  .footerRight {
+    display: none;
+  }
+
+  .footerBtm {
+    display: none;
+  }
+
+  .footerBtm p {
+    display: none;
+  }
+
+  .footerRight address {
+    padding-top: 15px;
+  }
+
+  a {
+    color: #66768A;
+    text-decoration: none;
+  }
+
+  .logo2 {
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    display: block;
+    float: right;
+    margin-right: 5px;
+  }
+
+  .logo3 {
+    display: none;
+  }
+
+  #remove {
+    display: none;
+  }
+
+  .logo4 {
+    display: none;
+  }
+}

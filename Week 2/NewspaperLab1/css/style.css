@@ -1,0 +1,217 @@
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+  /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+  /* note the padding around a left floated image */
+}
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 10px;
+}
+
+.menu1 {
+  color: black;
+  float: left;
+  text-align: left;
+  word-spacing: 10px;
+  font-weight: bold;
+}
+
+.menu2 {
+  color: black;
+  float: right;
+  text-align: right;
+}
+
+.button1 {
+  background-color: #467393;
+  border-color: #467393;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+
+.topmenu {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.icons {
+  width: 7%;
+  height: 7%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav>span {}
+
+.langu1 {
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  clear: both;
+  padding-bottom: 20px;
+  float: left;
+  word-spacing: 5px;
+}
+
+h5 {
+  display: inline;
+}
+
+h5 span {
+  font-weight: bolder;
+}
+
+.logo {
+  padding: 0px;
+  margin-top: -20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 90px;
+}
+
+.logo1 {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+header {
+  float: left;
+  width: 100%;
+  height: 200px;
+  clear: both;
+}
+
+.date1 {
+  text-align: center;
+  float: left;
+  width: 100%;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+section .main li {
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+/*  */
+section nav ul {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  word-spacing: 20px;
+}
+
+.main {
+  border-bottom: 1px solid #ccc;
+}
+
+.firstcol {
+  float: left;
+  width: 20%;
+  padding-top: 50px;
+  padding-right: 10px;
+}
+
+video {
+  width: 100%;
+  height: 200px;
+}
+
+.col2 {
+  float: left;
+  width: 30%;
+  padding-top: 70px;
+}
+
+.thirdcol {
+  float: left;
+  padding-top: 50px;
+  padding-left: 15px;
+  width: 45%;
+}
+
+.obama {
+  width: 15%;
+  display: inline-block;
+  float: left;
+  padding-top: 15px;
+}
+
+.Opinion {
+  float: left;
+  width: 49%;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.jus {
+  text-align: left;
+  padding-right: 1px;
+  float: left;
+  width: 70%;
+}
+
+.insider {
+  float: left;
+  clear: both;
+  padding-top: 10px;
+  border-top: 2px solid #ccc;
+  width: 100%;
+}
+
+.top {
+  width: 90%;
+  padding-left: 10%;
+}

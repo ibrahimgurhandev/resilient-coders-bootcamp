@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0px;
+  border: 0;
+  font-size: 100%;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: auto;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+}
+
+header h1 {
+  color: red;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+  opacity: 0.6;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+
+header h3 {
+  color: black;
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+
+header nav a {
+  color: grey;
+  text-decoration: underline;
+  font-family: 'Lato', sans-serif;
+}
+
+header nav {
+  word-spacing: 8px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+article>h3 {
+  color: grey;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+
+article h2 {
+  margin-top: 0px;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+
+article {}
+
+article img {
+  width: 60%;
+  height: 40%;
+  min-width: 400px;
+  min-height: 100px;
+  padding-bottom: 10px;
+}
+
+article section img {
+  width: 60%;
+  height: 60%;
+  min-width: 400px;
+  min-height: 300px;
+  padding-bottom: 10px;
+}
+
+article p {
+  width: 60%;
+  height: 40%;
+  display: block;
+  min-width: 400px;
+  font-family: 'Lato', sans-serif;
+}
+
+article section p {
+  color: red;
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+}
+
+article p span {
+  color: grey;
+  font-weight: lighter;
+  float: left;
+  width: 0.8em;
+  font-size: 500%;
+  line-height: 60%;
+}
+
+footer nav a {
+  color: red;
+  font-family: 'Lato', sans-serif;
+  min-width: 400px;
+}
+
+hr {
+  width: 60%;
+  float: left;
+  min-width: 400px;
+}
+
+footer nav {
+  word-spacing: 8px;
+  margin-bottom: 10px;
+}
+
+foooter>p {
+  float: left;
+  width: 100%;
+  color: grey;
+}

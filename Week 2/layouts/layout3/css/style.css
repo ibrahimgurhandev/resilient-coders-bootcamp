@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+header, footer {
+  clear: both;
+  width: 100%;
+  float: left;
+  height: 100px;
+  border: 3px solid black;
+}
+
+.box1 {
+  float: left;
+  width: 20%;
+  color: red;
+  height: 400px;
+  border: 3px solid black;
+}
+
+.box2 {
+  float: left;
+  width: 40%;
+  color: red;
+  height: 400px;
+  border: 3px solid black;
+}

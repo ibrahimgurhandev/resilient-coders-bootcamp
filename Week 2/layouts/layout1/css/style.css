@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+header, footer {
+  clear: both;
+  width: 100%;
+  float: left;
+  height: 200px;
+  border: 3px solid black;
+}
+
+.box {
+  float: left;
+  width: 33.3333%;
+  height: 200px;
+  border: 3px solid black;
+}
+
+/*in the image this section is not quite 50 percent */
+.box2 {
+  float: left;
+  width: 55%;
+  height: 200px;
+  border: 3px solid black;
+}
+
+.box3 {
+  float: left;
+  width: 45%;
+  height: 200px;
+  border: 3px solid black;
+}

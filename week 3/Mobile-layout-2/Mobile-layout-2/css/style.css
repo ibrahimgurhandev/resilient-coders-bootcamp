@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+header, .main, .three-col, li, .three-col, .col1, .main-left, .aside, footer {
+  border: 2px solid black;
+}
+
+header {
+  float: left;
+  width: 100%;
+  height: 170px;
+  clear: both;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  height: 250px;
+  clear: both;
+}
+
+header ul li, footer ul li {
+  float: left;
+  width: 9vw;
+  height: 90px;
+  margin: 10px;
+  margin-left: 55px;
+  list-style: none;
+}
+
+h1 {
+  margin: 0px;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  height: 170px;
+  clear: both;
+}
+
+.three-col {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 250px;
+}
+
+.col1 {
+  float: left;
+  width: 37.4%;
+  height: 250px;
+}
+
+.col2 {
+  float: left;
+  width: 25%;
+  height: 250px;
+}
+
+.main-left {
+  float: left;
+  width: 80%;
+  height: 250px;
+}
+
+aside {
+  float: right;
+  clear: right;
+  width: 20%;
+  height: 250px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (min-width:601px) and (max-width: 800px) {
+  .main {
+    float: none;
+    height: 400px;
+  }
+
+  header ul li, footer ul li {
+    float: left;
+    width: 6vw;
+    height: 60px;
+    margin: 5px;
+    margin-left: 65px;
+  }
+
+  .main-left {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 200px;
+  }
+
+  aside {
+    float: none;
+    clear: both;
+    height: 200px;
+    width: 100%;
+  }
+
+  .three-col {
+    float: none;
+    clear: both;
+    height: auto;
+  }
+
+  .col1 {
+    width: 100%;
+    height: 250px;
+  }
+
+  .col2 {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    float: left;
+    clear: both;
+    height: 40px;
+  }
+
+  .mobile-menu {
+    display: block;
+    float: right;
+    margin-right: 10px;
+  }
+
+  header ul li, footer ul li {
+    display: none;
+  }
+
+  .main {
+    float: none;
+    height: 400px;
+  }
+
+  .main-left {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 200px;
+  }
+
+  aside {
+    float: none;
+    clear: both;
+    height: 200px;
+    width: 100%;
+  }
+
+  .three-col {
+    float: none;
+    clear: both;
+    height: auto;
+  }
+
+  .col1 {
+    width: 100%;
+    height: 250px;
+  }
+
+  .col2 {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 250px;
+  }
+
+  footer {
+    float: left;
+    clear: both;
+    height: 40px;
+  }
+}

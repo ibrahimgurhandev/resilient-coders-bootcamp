@@ -1,0 +1,634 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+header {
+  background-color: #660033;
+  color: white;
+  float: right;
+  clear: right;
+  width: 30%;
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  width: 40%;
+  margin-left: 10px;
+}
+
+.menu {
+  float: right;
+  width: 40%;
+  margin: 25px 0px 0px 10px;
+}
+
+.mostRecent {
+  float: right;
+  width: 100%;
+  margin-top: -30px;
+}
+
+.recent {
+  background-color: #281B21;
+  color: white;
+  height: 40px;
+}
+
+.recent h3 {
+  text-align: left;
+  padding-top: 10px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.recent span {
+  float: right;
+  color: yellow;
+}
+
+  {
+  text-align: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.border {
+  border: 1px solid #ccc;
+}
+
+.headlines {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.headlines:last-child {
+  border-bottom: none;
+}
+
+.headlines h5 {
+  padding: 10px;
+  margin: 0px;
+}
+
+.container {
+  float: left;
+  width: 70%;
+  max-width: 850px;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  padding-top: 43%;
+  background-image: url(../images/img7.png);
+  background-size: cover;
+}
+
+.mobile {
+  display: none;
+}
+
+.one {
+  float: left;
+  width: 50%;
+}
+
+.one, .two {
+  margin-top: -300px;
+}
+
+.one h1 {
+  font-size: 30px;
+  color: white;
+  margin-left: 50px;
+}
+
+.one h3 {
+  color: yellow;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.two {
+  float: right;
+  width: 60%;
+}
+
+.two h2 {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-left: 265px;
+  padding: 0px;
+  font-size: 10px;
+  text-align: center;
+  width: 30%;
+  color: white;
+}
+
+.two h3 {
+  color: white;
+  font-size: 15px;
+  margin-left: 230px;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.trump2 {
+  float: left;
+  width: 23%;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.trump2 figcaption {
+  font-weight: 700;
+}
+
+.obama {
+  float: right;
+  width: 40%;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.obama h2 {
+  color: #281B21;
+  width: 90%;
+  font-size: 20px;
+}
+
+.obama2 {
+  float: right;
+  width: 40%;
+  border: 1px solid black;
+  margin-top: 10px;
+  background-color: #660033;
+  text-align: center;
+  color: white;
+}
+
+.ad {
+  float: left;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.adimg {
+  float: left;
+  border-radius: 50%;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.ad1 {
+  float: left;
+  width: 10%;
+  margin-top: 20px;
+}
+
+.ad2 {
+  float: left;
+  width: 50%;
+  color: #320A3F;
+  /* margin-right: -40px; */
+}
+
+.ad3 {
+  float: right;
+  width: 30%;
+  margin-left: 20px;
+  background-color: #320A3F;
+  height: 80px;
+  padding-left: 20px;
+  border-radius: 70px 0px 0px 70px;
+}
+
+.ad3 h4 {
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+  color: white;
+}
+
+.ad3 span {
+  color: white;
+}
+
+.slatest {
+  float: left;
+  width: 50%;
+  margin-left: 5px;
+}
+
+.sessions {
+  float: right;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.sessions img {
+  width: 100%;
+}
+
+.sessions figcaption {
+  text-align: center;
+  font-weight: 800;
+}
+
+.mostRecent1 {
+  display: none;
+}
+
+.slatest1 {
+  display: none;
+}
+
+.trump3 {
+  display: none;
+}
+
+.headlines span {
+  color: black;
+}
+
+@media screen and (min-width: 801px) and (max-width: 960px) {
+  header {
+    float: left;
+    width: 100%;
+    clear: both;
+    max-width: 960px;
+  }
+
+  html {
+    max-width: 960px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .menu {
+    float: right;
+    width: 40%;
+    margin: 25px 0px 0px 0px;
+    padding-left: 200px;
+  }
+
+  .mostRecent {
+    display: none;
+  }
+
+  .mostRecent1 {
+    float: left;
+    width: 50%;
+    display: block;
+  }
+
+  .container {
+    float: left;
+    width: 100%;
+    clear: both;
+    max-width: 960px;
+  }
+
+  .slatest {
+    display: none;
+  }
+
+  .slatest1 {
+    width: 50%;
+    float: left;
+    height: auto;
+    display: block;
+  }
+
+  .trump2 {
+    display: none;
+  }
+
+  .trump3 {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    text-align: center;
+  }
+
+  .obama {
+    float: left;
+    width: 50%;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .obama h2 {
+    color: #281B21;
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .obama2 {
+    float: right;
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: #660033;
+    text-align: center;
+    color: white;
+  }
+
+  .sessions {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  header {
+    float: left;
+    width: 100%;
+    clear: both;
+  }
+
+  html {
+    max-width: 800px;
+  }
+
+  .menu {
+    float: right;
+    width: 50%;
+    margin: 25px 0px 0px 0px;
+    padding-left: 190px;
+  }
+
+  .one {
+    float: left;
+    width: 50%;
+  }
+
+  .one, .two {
+    margin-top: -230px;
+  }
+
+  .one h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+  }
+
+  .one h3 {
+    color: yellow;
+    width: 50%;
+    margin-left: 50px;
+    font-size: 15px;
+  }
+
+  .two {
+    float: right;
+    width: 60%;
+  }
+
+  .two h2 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-left: 220px;
+    padding: 0px;
+    font-size: 13px;
+    text-align: center;
+    width: 30%;
+    color: white;
+  }
+
+  .two h3 {
+    color: white;
+    font-size: 14px;
+    margin-left: 190px;
+    width: 50%;
+  }
+
+  .mostRecent {
+    display: none;
+  }
+
+  .mostRecent1 {
+    float: left;
+    width: 100%;
+    display: block;
+  }
+
+  .container {
+    float: left;
+    width: 100%;
+    clear: both;
+    height: 600px;
+  }
+
+  .slatest {
+    display: none;
+  }
+
+  .slatest1 {
+    width: 100%;
+    float: left;
+    height: auto;
+    display: block;
+  }
+
+  .trump2 {
+    display: none;
+  }
+
+  .trump3 {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    text-align: center;
+  }
+
+  .obama {
+    float: left;
+    width: 50%;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .obama h2 {
+    color: #281B21;
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .obama2 {
+    float: right;
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: #660033;
+    text-align: center;
+    color: white;
+  }
+
+  .sessions {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    float: left;
+    width: 100%;
+    clear: both;
+  }
+
+  .menu {
+    float: right;
+    width: 50%;
+    margin: 25px 0px 0px 0px;
+    padding-left: 120px;
+  }
+
+  .mostRecent {
+    display: none;
+  }
+
+  .mostRecent1 {
+    float: left;
+    width: 100%;
+    display: block;
+  }
+
+  .container {
+    float: left;
+    width: 100%;
+    clear: both;
+    height: 600px;
+  }
+
+  .main {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    float: left;
+    width: 100%;
+    padding-top: 43%;
+    background-image: url(../images/trump.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .one1 {
+    padding-left: 220px;
+    margin-top: -190px;
+    width: 100%;
+  }
+
+  .one1 h1 {
+    font-size: 20px;
+    color: white;
+  }
+
+  .one1 span {
+    font-size: 10px;
+    color: white;
+  }
+
+  .one1 h3 {
+    font-size: 20px;
+    width: 100%;
+    color: yellow;
+  }
+
+  .slatest {
+    display: none;
+  }
+
+  .slatest1 {
+    width: 100%;
+    float: left;
+    height: auto;
+    display: block;
+  }
+
+  .trump2 {
+    display: none;
+  }
+
+  .trump3 {
+    float: left;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    display: block;
+    text-align: center;
+  }
+
+  .obama {
+    float: left;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .obama h2 {
+    color: #281B21;
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .obama2 {
+    float: right;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: #660033;
+    text-align: center;
+    color: white;
+  }
+
+  .sessions {
+    float: right;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .ad {
+    display: none;
+  }
+}

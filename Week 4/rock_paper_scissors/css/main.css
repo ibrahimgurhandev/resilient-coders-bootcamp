@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #28B4E5;
+}
+
+/* .img {
+  background-image: url("../img1.jpg");
+  background-repeat: no-repeat;
+  padding-right: 700px;
+  padding-top: 1300px;
+  margin-top: 110px;
+} */
+.container {}
+
+.container2 {
+  margin-top: 70px;
+  border: 1px solid white;
+  background-color: #087CA7;
+  padding: 10px;
+  border-radius: 20px;
+  height: 610px;
+  width: 495px;
+  text-align: center;
+  border: 5px solid #033860;
+}
+
+.image {
+  margin-left: 40px;
+}
+
+.image img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+h1 {
+  padding-bottom: 20px;
+  color: white;
+}
+
+button {
+  /* width: 180px; */
+  height: 40px;
+  width: 130px;
+  background-color: #28B4E5;
+  border: 3px solid #004385;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #E09900;
+  color: white;
+}
+
+.scoreboard {
+  padding-top: 10px;
+  font-size: 30px;
+  color: black;
+}
+
+.scoreboard h2 {
+  color: white;
+  padding: 0px;
+}
+
+.btm h2 {
+  padding-bottom: 20px;
+}
+
+table {
+  padding-top: 20px;
+  margin-left: 200px;
+}
+
+.btm {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.quote {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+#humanScore {
+  font-size: 120px;
+}
+
+#computerScore {
+  font-size: 120px;
+}
+
+#you {}
+
+.scoreimg {
+  background-image: url("../img3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 280px;
+  margin-top: -35px;
+  margin-left: 30px;
+}
+
+.grid1 {
+  grid-area: grid1;
+}
+
+.grid2 {
+  grid-area: grid2;
+}
+
+.grid3 {
+  grid-area: grid3;
+  display: grid;
+  align-items: center;
+  color: white;
+}
+
+.grid4 {
+  grid-area: grid4;
+  display: grid;
+  align-items: center;
+  color: white;
+}
+
+.score {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "grid1 grid2""grid3 grid4";
+  padding-top: 60px;
+}

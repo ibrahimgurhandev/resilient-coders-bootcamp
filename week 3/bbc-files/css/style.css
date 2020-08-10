@@ -1,0 +1,403 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  float: left;
+  width: 100%;
+  height: 50px;
+  clear: both;
+  background-color: black;
+}
+
+.mobile-menu {
+  float: right;
+  margin: 10px;
+}
+
+.mobile-menu img {
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.mobile-menu img:hover {
+  border-radius: 2px;
+  border: 1px solid red;
+}
+
+.menu {
+  float: left;
+  color: white;
+  width: 20%;
+}
+
+.logo1 {
+  width: 90px;
+  margin: 10px;
+}
+
+.searchbar {
+  width: 30%;
+  float: right;
+  clear: right;
+  display: none;
+}
+
+#input-icon {
+  background: url('../images/search.png') right no-repeat;
+}
+
+nav {
+  display: none;
+}
+
+a {
+  color: white;
+  text-decoration: none
+}
+
+.searchbar {
+  float: left;
+  width: 20%;
+  clear: right;
+  height: 50px;
+}
+
+.main {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 280px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.date {
+  float: right;
+  clear: right;
+  margin-right: 20px;
+}
+
+.welcome {
+  float: left;
+  margin-left: 20px;
+}
+
+.trumpsec {
+  float: left;
+  width: 95%;
+  clear: both;
+  margin-left: 10px;
+}
+
+figcaption {
+  font-weight: 700;
+  text-align: center;
+}
+
+.trumpsec img {
+  width: 100%;
+  max-width: 500px;
+  max-height: 250px;
+}
+
+h1 {
+  padding-top: 110px;
+}
+
+.four {
+  float: left;
+  width: 100%;
+  clear: both;
+  height: 800px;
+}
+
+.four img {
+  margin-left: 12px;
+  margin-bottom: 5px;
+  max-width: 500px;
+  width: 95%;
+  max-height: 200px;
+}
+
+.four h2 {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.news {
+  float: left;
+  clear: both;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.news img {
+  width: 90%;
+}
+
+.title {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+.till {
+  color: white;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .main {
+    height: 330px;
+    width: 95%;
+    margin-left: 8px;
+  }
+
+  .four {
+    width: 100%;
+    float: left;
+    height: 380px;
+  }
+
+  .tillerson {
+    float: left;
+    width: 50%;
+  }
+
+  .four img {
+    margin-left: 12px;
+    margin-bottom: 5px;
+    max-width: 500px;
+    width: 90%;
+  }
+
+  .four figcaption {
+    margin: 10px;
+  }
+
+  .trumpsec {
+    width: 100%;
+  }
+
+  .trumpsec img {
+    max-height: 300px;
+    max-width: 600px;
+  }
+
+  span::after {
+    content: "nesday";
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 960px) {
+  header nav {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 80%;
+    clear: right;
+    font-size: 2vw;
+    margin-top: 15px;
+    word-spacing: 8px;
+  }
+
+  header nav a {
+    border-left: 1px solid white;
+    padding: 10px 5px 10px 10px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .main {
+    height: 330px;
+    width: 95%;
+    margin-left: 8px;
+  }
+
+  .four {
+    width: 100%;
+    float: left;
+    height: 450px;
+  }
+
+  .tillerson {
+    float: left;
+    width: 50%;
+  }
+
+  .four img {
+    margin-left: 12px;
+    margin-bottom: 5px;
+    max-width: 500px;
+    width: 90%;
+  }
+
+  .four figcaption {
+    margin: 10px;
+  }
+
+  .trumpsec {
+    width: 100%;
+  }
+
+  .trumpsec img {
+    max-height: 300px;
+    max-width: 600px;
+  }
+
+  .till1 {
+    width: 100%;
+  }
+
+  .news h1 {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .till {
+    float: left;
+    width: 30.3333%;
+    margin: 0 20px 0px 0;
+  }
+
+  .till1:first-child {
+    margin-left: 20px;
+  }
+
+  .news h1 {
+    margin: 0px;
+    padding: 60px 0px 0px 20px;
+  }
+
+  span::after {
+    content: "nesday";
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  header nav {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 70%;
+    clear: right;
+    font-size: 1.8vw;
+    margin-top: 15px;
+    word-spacing: 8px;
+  }
+
+  header nav a {
+    border-left: 1px solid white;
+    padding: 10px 5px 10px 10px;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .main {
+    height: 330px;
+    width: 50%;
+    clear: none;
+  }
+
+  .four {
+    width: 50%;
+    float: left;
+    height: 160px;
+    clear: none;
+    max-height: 300px;
+  }
+
+  .tillerson {
+    float: left;
+    width: 50%;
+  }
+
+  .four img {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 150px;
+  }
+
+  .four figcaption {
+    margin: 10px;
+  }
+
+  .trumpsec {
+    width: 100%;
+  }
+
+  .trumpsec img {
+    max-height: 400px;
+    max-width: 700px;
+  }
+
+  .till1 {
+    width: 100%;
+  }
+
+  .news h1 {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .till {
+    float: left;
+    width: 30.3333%;
+    margin: 0 20px 0px 0;
+  }
+
+  .till1:first-child {
+    margin-left: 20px;
+  }
+
+  .news h1 {
+    margin: 0px;
+    padding: 60px 0px 0px 20px;
+  }
+
+  .searchbar {
+    display: block;
+    float: right;
+    width: 18%;
+    background-color: white;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .search {
+    height: 45px;
+    background-color: white;
+    border: 1px solid rgb(57, 62, 64);
+    width: 18vw;
+    font-size: 20px;
+    height: 40px;
+  }
+
+  #input-icon {
+    background: url('../images/search.png') right no-repeat;
+  }
+
+  .menu {
+    float: left;
+    color: white;
+    width: 10%;
+  }
+
+  span::after {
+    content: "nesday";
+  }
+}

@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  float: left;
+  clear: both;
+  background-color: black;
+  padding-top: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav img {
+  padding: 20px 200px 0px 50px;
+}
+
+nav {
+  word-spacing: 10px;
+}
+
+.mainwrapper {
+  float: left;
+  width: 100%;
+  clear: both;
+  padding: 40px 40px 0px 100px;
+}
+
+.bill {
+  padding-right: 40px;
+}
+
+.top {
+  float: left;
+  width: 50%;
+  padding-left: 60px;
+}
+
+.second {
+  float: left;
+  width: 20%;
+  padding-right: 10px;
+  margin-left: -80px;
+  padding-top: 90px;
+  height: 720px;
+}
+
+.third {
+  float: left;
+  width: 20%;
+  clear: right;
+}
+
+.mid {
+  display: inline-block;
+  float: left;
+  width: 90%;
+}
+
+.pics {
+  width: 60%;
+}
+
+.img1 {
+  float: left;
+  width: 50%;
+}
+
+.img1 h3 {
+  padding-right: 1px;
+  width: 90%;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.billy {
+  width: 80%;
+}
+
+h2 {
+  width: 80%;
+}
+
+.bill>h1 {
+  border-bottom: 3px solid #c50b30;
+}
+
+aside>h1 {
+  border-bottom: 3px solid #c50b30;
+}
+
+ol>li {
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0px 5px 0px;
+  font-size: 12px;
+}
+
+.auto {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 0px 40px 0px 70px;
+}
+
+.first {
+  float: left;
+  width: 40%;
+}
+
+.secon {
+  float: left;
+  width: 60%;
+  padding-top: 80px;
+}
+
+.secon h4 {
+  font-weight: 300;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0px 5px 0px;
+  text-align: left;
+}
+
+figcaption h3 {
+  width: 70%;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  padding: 0px 40px 0px 70px;
+}
+
+.socials {
+  float: left;
+  width: 50;
+  ;
+}
+
+.copyright {
+  float: right;
+  width: 50;
+}
+
+a {
+  color: blue;
+}

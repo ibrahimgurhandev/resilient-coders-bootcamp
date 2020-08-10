@@ -1,0 +1,74 @@
+/* got calculator colors from this website https: //www.schemecolor.com/apple-calculator-app-icon-2017-colors.php */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: safe center;
+  min-height: 100vh;
+  background-image: url("../img1.jpg");
+}
+
+.calculator {
+  position: absolute;
+  display: grid;
+  border-radius: 6px;
+  border: 8px solid black;
+}
+
+.calculator .value {
+  display: grid;
+  grid-column: span 4;
+  height: 100px;
+  text-align: right;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  background-color: #1C1C1C;
+  color: white;
+}
+
+.calculator button {
+  display: grid;
+  height: 110px;
+  color: white;
+  background: #505050;
+  place-items: center;
+  border: 1px solid #ccc;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.calculator button:active {
+  background: white;
+  color: orange;
+}
+
+.calculator button#clear {
+  grid-column: span 2;
+}
+
+.calculator button.plus {
+  grid-row: span 2;
+  height: 220px;
+}
+
+.calculator button.orange {
+  background-color: #FF9500;
+}
+
+/* this is from the reading, pseudo element */
+::selection {
+  background-color: #FF9500;
+}
+
+.calculator button.grey {
+  background-color: #D4D4D2;
+  color: black;
+}
