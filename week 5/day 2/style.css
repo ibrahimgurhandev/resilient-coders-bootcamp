@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.container, .box1, .box2, .box3 {
+  border: 3px solid black;
+}
+
+.container {
+  height: 500px;
+  width: 100%;
+  padding-top: 100px;
+  margin-top: 40px;
+}
+
+.box1, .box2, .box3 {
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+.box1 {
+  background-color: red;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.box2 {
+  background-color: blue;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.box3 {
+  background-color: yellow;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.rotateBox {
+  transform: rotate(45deg);
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.circle {
+  border-radius: 50%;
+  margin-left: 10%;
+}
