@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
-.container, .box1, .box2, .box3 {
+.container,
+.box1,
+.box2,
+.box3 {
   border: 3px solid black;
 }
 
@@ -13,26 +16,28 @@
   margin-top: 40px;
 }
 
-.box1, .box2, .box3 {
+.box1,
+.box2,
+.box3 {
   float: left;
   width: 300px;
   height: 300px;
 }
 
 .box1 {
-  background-color: red;
+  background-color: white;
   margin-right: 80px;
   margin-left: 80px;
 }
 
 .box2 {
-  background-color: blue;
+  background-color: white;
   margin-right: 80px;
   margin-left: 80px;
 }
 
 .box3 {
-  background-color: yellow;
+  background-color: white;
   margin-right: 80px;
   margin-left: 80px;
 }
