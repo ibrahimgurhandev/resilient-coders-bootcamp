@@ -7,42 +7,35 @@
 // when pressed
 // - still don't understand how removing the transitions work, will watch more tutorials for that
 function removeCssTransition(e) {
-  element.style.background = "url('') ";
+  element.style.background = "url('https://i.imgur.com/QURIba9.png') ";
 
+  if (e.propertyName !== "transform") return;
+  e.target.classList.remove("playing");
+}
 
+function registerKeysAndPlay(e) {
+  var sounds = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+  var key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+  if (!sounds) return;
+  key.classList.add("playing");
+  element.style.background = "url('https://i.imgur.com/MXmPwZq.gif')";
+  element.style.backgroundRepeat = "no-repeat";
+  element.style.backgroundSize = "cover";
 
+  sounds.currentTime = 0;
 
-   if (e.propertyName !== 'transform') return;
-   e.target.classList.remove('playing');
+  sounds.play();
+}
 
-
- }
-
- function registerKeysAndPlay(e) {
-   var sounds = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-   var key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-   if (!sounds) return;
-   key.classList.add('playing');
-   element.style.background = "url('http://ibrahimgurhan.com/giphy.gif')";
-   element.style.backgroundRepeat = "no-repeat";
-   element.style.backgroundSize = "cover";
-
-
-   sounds.currentTime = 0;
-
-   sounds.play();
-
- }
-
- var keys = Array.from(document.querySelectorAll('.key'));
- keys.forEach(key => key.addEventListener('transitionend', removeCssTransition));
- window.addEventListener('keydown', registerKeysAndPlay);
-
+var keys = Array.from(document.querySelectorAll(".key"));
+keys.forEach((key) =>
+  key.addEventListener("transitionend", removeCssTransition)
+);
+window.addEventListener("keydown", registerKeysAndPlay);
 
 // function changeBackground(){
 //   document.html.style.background = `url('../bg.gif')`;
 //
 // }
-
 
 element = document.querySelector(".image");
