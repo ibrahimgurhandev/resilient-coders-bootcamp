@@ -1,0 +1,147 @@
+/* followed Traversy tutorial on youtube  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.wrapper {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(248, 45, 89, 0.9);
+  margin-top: 20px;
+  height: 300px;
+  flex-grow: 1;
+  flex-basis: 0%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  position: relative;
+  display: flex;
+  width: 550px;
+}
+input {
+  width: 100%;
+  max-width: 100%;
+  height: 45px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  display: flex;
+}
+button {
+  width: 100px;
+  max-width: 100%;
+  background: #9e2092;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  top: 2px;
+  font-weight: 600;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+.result {
+  color: white;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 20px;
+  position: relative;
+  display: block;
+}
+
+.song-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.song-list li {
+  margin-bottom: 20px;
+  width: 500px;
+  justify-content: space-evenly;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: overline;
+  text-decoration-color: rgb(12, 147, 100);
+  position: relative;
+}
+
+.song-list li div {
+  float: left;
+}
+
+.song-list li span {
+  float: right;
+  background-color: #9e2092;
+  border: 0;
+  font-size: 12px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 4px 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    height: 70vh;
+    width: 9%vw;
+  }
+  .container {
+    font-size: 20px;
+  }
+
+  form {
+    max-width: 300px;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+  }
+
+  .wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  button {
+    width: 80px;
+    max-width: 100%;
+  }
+  .song-list li {
+    margin-bottom: 15px;
+    max-width: 300px;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("bg.gif");
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.today {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(22, 89, 181, 0.8);
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+h1 {
+  color: white;
+}
+
+p {
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  color: white;
+}
+#nasa {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+iframe {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 200px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .today {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .today {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}

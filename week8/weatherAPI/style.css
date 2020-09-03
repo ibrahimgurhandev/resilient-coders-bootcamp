@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("bg.gif");
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.input,
+.result {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(22, 89, 181, 0.9);
+  margin-top: 20px;
+  height: 300px;
+  flex-grow: 1;
+  flex-basis: 0%;
+}
+
+h1 {
+  color: white;
+  background-color: rgba(6, 10, 246, 0.4);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 img {
+  height: 30px;
+}
+
+h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: white;
+  display: none;
+}
+p {
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  color: white;
+}
+
+#inputValue {
+  height: 30px;
+  border-radius: 5px;
+  width: 220px;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: -40px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+.humidity {
+  color: white;
+  padding-left: 60px;
+}
+
+.temp {
+  color: white;
+  padding-left: 60px;
+}
+.wind {
+  color: white;
+  padding-left: 60px;
+}
+
+.fields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.humidField {
+  color: white;
+  padding-left: 40px;
+}
+
+.tempField {
+  color: white;
+  padding-left: 40px;
+}
+.windField {
+  color: white;
+  padding-left: 40px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .input {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  h1 {
+    color: white;
+    background-color: rgba(6, 10, 246, 0.4);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
