@@ -78,8 +78,8 @@ body {
 h1 {
   color: white;
   background-color: rgba(6, 10, 246, 0.4);
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 20px;
   border-radius: 5px;
   display: flex;
@@ -107,6 +107,47 @@ p {
   color: white;
 }
 
+.info {
+  background-color: white;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info div {
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.info div:first-child {
+  border-top: none;
+}
+
+.info div:last-child {
+  border-bottom: none;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(6, 10, 246, 0.4);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.title img {
+  height: 30px;
+}
+
 #inputValue {
   height: 30px;
   border-radius: 5px;
@@ -124,43 +165,6 @@ p {
   font-size: 30px;
 }
 
-.humidity {
-  color: white;
-  padding-left: 60px;
-}
-
-.temp {
-  color: white;
-  padding-left: 60px;
-}
-.wind {
-  color: white;
-  padding-left: 60px;
-}
-
-.fields {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.humidField {
-  color: white;
-  padding-left: 40px;
-}
-
-.tempField {
-  color: white;
-  padding-left: 40px;
-}
-.windField {
-  color: white;
-  padding-left: 40px;
-}
-
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .input {
     align-items: center;
@@ -169,6 +173,36 @@ p {
     border-radius: 5px;
     margin-left: 5%;
     margin-right: 5%;
+  }
+  h1 {
+    color: white;
+    background-color: rgba(6, 10, 246, 0.4);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(6, 10, 246, 0.4);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .info {
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
   .wrapper {
@@ -190,9 +224,26 @@ p {
     margin-left: 2%;
     margin-right: 2%;
   }
+  .info {
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
 
   h1 {
     color: white;
+    background-color: rgba(6, 10, 246, 0.4);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 600;
     background-color: rgba(6, 10, 246, 0.4);
     margin-left: 10%;
     margin-right: 10%;

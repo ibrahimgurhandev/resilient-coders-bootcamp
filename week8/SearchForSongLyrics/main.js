@@ -4,10 +4,6 @@ let form = document.getElementById("inputValue");
 let search = document.getElementById("search");
 let result = document.getElementById("result");
 
-/// api URL ///
-
-/// adding event listener in form
-
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   searchValue = search.value.trim();
@@ -19,18 +15,15 @@ form.addEventListener("submit", (e) => {
   }
 });
 
-//search song
-async function searchSong(searchValue) {
-  let searchResult = await fetch(
-    `https://api.lyrics.ovh/suggest/${searchValue}`
-  );
-  let data = await searchResult.json();
+function searchSong(searchValue) {
+  let searchResult = fetch(`https://api.lyrics.ovh/suggest/${searchValue}`)
+    .then((response) => response.json())
 
-  // console.log(finaldata)
-  showData(data);
+    .then((data) => {
+      showData(data);
+    });
 }
 
-//display final result in DO
 function showData(data) {
   result.innerHTML = `
     <ul class="song-list">
@@ -48,11 +41,9 @@ function showData(data) {
   `;
 }
 
-//event listener in get lyrics button
 result.addEventListener("click", (e) => {
   let clickedElement = e.target;
 
-  //checking clicked elemet is button or not
   if (clickedElement.tagName === "SPAN") {
     let artist = clickedElement.getAttribute("data-artist");
     let songTitle = clickedElement.getAttribute("data-songtitle");
@@ -61,12 +52,21 @@ result.addEventListener("click", (e) => {
   }
 });
 
-// Get lyrics for song
-async function getLyrics(artist, songTitle) {
-  let res = await fetch(`https://api.lyrics.ovh/v1/${artist}/${songTitle}`);
-  let data = await res.json();
-  let lyrics = data.lyrics.replace(/(\r\n|\r|\n)/g, "<br>");
+function getLyrics(artist, songTitle) {
+  fetch(
+    `https://orion.apiseeds.com/api/music/lyric/${artist}/${songTitle}?apikey=TibJStcK2J0m8rOQyhrNNWLXYDxSd3rvWRIyfS3Pwv3PvVu5aOD8dS5PaR5spEmI`
+  )
+    .then((response) => response.json())
 
-  result.innerHTML = `<h2><strong>${artist}</strong> - ${songTitle}</h2>
+    .then((data) => {
+      let lyrics = data.result.track.text.replace(/(\r\n|\r|\n)/g, "<br>");
+
+      result.innerHTML = `<h2><strong>${artist}</strong> - ${songTitle}</h2>
     <p>${lyrics}</p>`;
+    })
+    .catch((err) =>
+      alert(
+        "Sorry, we don't have the Lyrics to this particular song. Try searching foranother song"
+      )
+    );
 }

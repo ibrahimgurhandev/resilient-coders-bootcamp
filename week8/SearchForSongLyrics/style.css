@@ -24,7 +24,7 @@ body {
   border-radius: 5px;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: rgba(248, 45, 89, 0.9);
+  background-color: rgb(22, 89, 181, 0.9);
   margin-top: 20px;
   height: 300px;
   flex-grow: 1;
@@ -32,6 +32,9 @@ body {
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
+}
+h1 {
+  color: white;
 }
 
 form {
@@ -49,7 +52,7 @@ input {
   outline: none;
   display: flex;
 }
-button {
+#btn {
   width: 100px;
   max-width: 100%;
   background: #9e2092;
@@ -62,6 +65,33 @@ button {
   top: 2px;
   font-weight: 600;
   outline: none;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+}
+h3 {
+  color: white;
+}
+.navbtn {
+  width: 170px;
+  height: 30px;
+  max-width: 100%;
+  background: #9e2092;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.navbtn a {
+  color: white;
+  text-decoration: none;
 }
 
 li {
@@ -71,7 +101,6 @@ li {
 .result {
   color: white;
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
   margin-top: 20px;
   position: relative;
   display: block;
@@ -91,7 +120,6 @@ li {
   font-weight: 500;
   font-size: 18px;
   text-decoration: overline;
-  text-decoration-color: rgb(12, 147, 100);
   position: relative;
 }
 
@@ -121,7 +149,7 @@ li {
   }
 
   form {
-    max-width: 300px;
+    max-width: 360px;
   }
 
   input {

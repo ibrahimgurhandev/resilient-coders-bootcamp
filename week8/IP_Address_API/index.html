@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complex Location API</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="input">
+        <h1><img src="icon.png" alt="" /> Your Location Data</h1>
+        <div class="info">
+          <div>
+            Your Current City :
+            <span id="city"></span>
+          </div>
+          <div>
+            Your Current State :
+            <span id="regionName"></span>
+          </div>
+          <div>
+            Your Current Zipcode :
+            <span id="zipcode"></span>
+          </div>
+          <div>
+            Your IP Address :
+            <span id="ip"></span>
+          </div>
+          <div>
+            Your Current Latitude :
+            <span id="lat"></span>
+          </div>
+          <div>
+            Your Current Longitude :
+            <span id="lon"></span>
+          </div>
+        </div>
+
+        <button class="navbtn" id="btnWeather">
+          Get My Weather
+        </button>
+        <h2 class="name"></h2>
+        <p class="description"></p>
+        <div class="weather-icon"><img src="icons/unknown.png" /></div>
+        <div class="title">
+          <img src="icon.png" alt="" /> Current Weather in Your City
+        </div>
+        <div class="info">
+          <div>
+            Temperature :
+            <span id="temp">TBD</span>
+          </div>
+          <div>
+            Wind Speed :
+            <span id="wind">TBD</span>
+          </div>
+          <div>
+            Humidity :
+            <span id="humidity">TBD</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrapper">
+        <h2>Check out my Other API's</h2>
+
+        <div class="nav">
+          <button class="navbtn">
+            <a
+              href="https://nasapi-simple.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NASA Image of The Day</a
+            >
+          </button>
+          <button class="navbtn">
+            <a
+              href="https://get-songlyrics.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Search Song Lyrics</a
+            >
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
