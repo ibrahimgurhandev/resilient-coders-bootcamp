@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="today">
+        <h1>🔎Enter your name and the name of your partner/lover/crush to find Love compatibility & chances of successful love relationship.</h1>
+        <div class="inputs">
+          <div>
+            <label for="firstName">Enter Your First Name</label>
+            <input type="text" name="firstName" id="firstName" value="" />
+          </div>
+          <div>
+            <label for="secName">Enter Your Crush Name</label>
+            <input type="text" name="secName" id="secName" value="" />
+          </div>
+
+          <div          <button id="button">🔎 Search</button>
+            </div>
+
+
+        </div>
+        <span>💕 compatibility percentage :</span><span id="percent"></span>
+        <p id="text"></p>
+      </section>
+
+      <section class="today">
+        <h1>Check out my Other API's</h1>
+
+        <div class="nav">
+          <button class="navbtn">
+            <a
+              href="https://weather-simpleapi.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check The Weather</a
+            >
+          </button>
+          <button class="navbtn">
+            <a
+              href="https://get-songlyrics.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Search Song Lyrics</a
+            >
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

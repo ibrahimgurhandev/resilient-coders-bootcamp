@@ -32,20 +32,20 @@ function getWeather() {
   let latitude = document.querySelector("#lat").innerHTML;
   let longitude = document.querySelector("#lon").innerHTML;
   fetch(
-    `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=003bd0423f8f627a496637434f9231df&units=imperial`
+    `https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=366cc5a7fdf890e156cf71b1182d64f9&query=${latitude},${longitude}`
   )
     .then((res) => res.json())
 
     .then((data) => {
       console.log(data);
-      let locationIcon = document.querySelector(".weather-icon");
-      locationIcon.innerHTML = `<img src="icons/${data["weather"][0]["icon"]}.png"></img>`;
-      document.querySelector(".name").innerHTML = data["name"];
-      document.querySelector("#temp").innerHTML = data["main"]["temp"] + "ºF";
-      document.querySelector("#wind").innerHTML = data["wind"]["speed"];
-      document.querySelector("#humidity").innerHTML = data["main"]["humidity"];
+      document.querySelector("#temp").innerHTML =
+        data.current.temperature + "ºF";
+      document.querySelector("#wind").innerHTML = data.current.wind_speed;
+      document.querySelector("#humidity").innerHTML =
+        data["current"]["humidity"];
       document.querySelector(".description").innerHTML =
-        data["weather"]["0"]["description"];
+        data.current.weather_descriptions[0];
+      document.getElementById("icon").src = `${data.current.weather_icons[0]}`;
     })
     .catch((err) => console.log(err));
 }
