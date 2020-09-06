@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
 .today {
   align-items: center;
   justify-content: center;
@@ -27,6 +28,7 @@ body {
   margin-top: 10px;
   padding-bottom: 10px;
 }
+
 h1 {
   color: white;
 }
@@ -36,6 +38,7 @@ p {
   padding: 10px 30px 10px 30px;
   color: white;
 }
+
 #nasa {
   display: block;
   width: 300px;
@@ -65,7 +68,9 @@ iframe {
   align-items: center;
   padding-top: 10px;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
 h4 {
   color: white;
   padding: 5px;
@@ -81,7 +86,7 @@ h4 {
   border: none;
   font-weight: 600;
   outline: none;
-  margin-right: 10px;
+  margin: 5px;
 }
 
 #button {
@@ -97,6 +102,7 @@ h4 {
   font-size: 15px;
   cursor: pointer;
 }
+
 input {
   border-radius: 5px;
   height: 25px;

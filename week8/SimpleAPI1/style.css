@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
 .today {
   align-items: center;
   justify-content: center;
@@ -27,13 +28,14 @@ body {
   margin-top: 10px;
   padding-bottom: 10px;
 }
+
 h1 {
   color: white;
 }
 
 p {
   text-align: center;
-  padding: 10px 30px 10px 30px;
+  padding: 5px 10px 5px 5px;
   color: white;
 }
 
@@ -52,7 +54,9 @@ p {
   align-items: center;
   padding-top: 10px;
   justify-content: center;
+  flex-wrap: wrap;
 }
+
 h4 {
   color: white;
   padding: 5px;
@@ -69,6 +73,7 @@ h4 {
   font-weight: 600;
   outline: none;
   margin-right: 10px;
+  margin: 5px;
 }
 
 #button {
@@ -84,6 +89,7 @@ h4 {
   font-size: 15px;
   cursor: pointer;
 }
+
 input {
   border-radius: 5px;
   height: 25px;
@@ -98,6 +104,7 @@ ul {
   flex-direction: column;
   text-align: left;
 }
+
 li {
   border: 1px solid black;
   color: black;
@@ -114,6 +121,7 @@ li:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .today {
     align-items: center;

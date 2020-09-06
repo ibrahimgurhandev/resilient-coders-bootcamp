@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
 .input,
 .result {
   align-items: center;
@@ -38,6 +39,7 @@ body {
   align-items: center;
   padding-top: 10px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .wrapper {
@@ -56,6 +58,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
 }
+
 .navbtn {
   width: 170px;
   height: 30px;
@@ -68,7 +71,9 @@ body {
   outline: none;
   margin-right: 10px;
   cursor: pointer;
+  margin: 5px;
 }
+
 .navbtn a {
   color: white;
   text-decoration: none;
@@ -101,6 +106,7 @@ h3 {
   color: white;
   display: none;
 }
+
 p {
   text-align: center;
   padding: 10px 30px 10px 30px;
@@ -133,6 +139,7 @@ p {
   color: white;
   padding-left: 60px;
 }
+
 .wind {
   color: white;
   padding-left: 60px;
@@ -156,6 +163,7 @@ p {
   color: white;
   padding-left: 40px;
 }
+
 .windField {
   color: white;
   padding-left: 40px;
@@ -186,6 +194,7 @@ p {
     margin-left: 2%;
     margin-right: 2%;
   }
+
   .wrapper {
     margin-left: 2%;
     margin-right: 2%;

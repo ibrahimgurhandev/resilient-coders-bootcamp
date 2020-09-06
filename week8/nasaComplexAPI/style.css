@@ -24,13 +24,15 @@ body {
   justify-content: center;
   border: 1px solid black;
   border-radius: 5px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
   background-color: rgb(22, 89, 181, 0.9);
   margin-top: 20px;
   height: 300px;
   flex-grow: 1;
   flex-basis: 0%;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -39,6 +41,7 @@ body {
   align-items: center;
   padding-top: 10px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .wrapper {
@@ -68,6 +71,8 @@ body {
   outline: none;
   margin-right: 10px;
   cursor: pointer;
+  margin: 5px;
+
 }
 
 .navbtn a {

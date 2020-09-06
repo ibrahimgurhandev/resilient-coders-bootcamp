@@ -1,67 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <section class="input">
-        <h1><img src="icon.png" alt="" /> Weather App</h1>
-        <h2>Check Current Weather For Any Location in The World</h2>
-        <input type="text" id="inputValue" placeholder="Enter Any City Name" />
-        <h2 class="name"></h2>
-        <p class="description"></p>
-        <div class="weather-icon"><img src="icons/unknown.png" /></div>
-        <div class="fields">
-          <div class="tempField">Temp :</div>
-          <div class="windField">Wind:</div>
-          <div class="humidField">Humidity:</div>
-        </div>
-        <div class="results">
-          <div class="temp"></div>
-          <div class="wind"></div>
 
-          <div class="humidity"></div>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <section class="wrapper">
-        <h2>Check out my Other API's</h2>
+<body>
+  <div class="container">
+    <section class="input">
+      <h1><img src="icon.png" alt="" /> Weather App</h1>
+      <h2>Check Current Weather For Any Location in The World</h2>
+      <input type="text" id="inputValue"
+        placeholder="Enter Any City Name" />
+      <h2 class="name"></h2>
+      <p class="description"></p>
+      <div class="weather-icon"><img src="icons/unknown.png" /></div>
+      <div class="fields">
+        <div class="tempField">Temp :</div>
+        <div class="windField">Wind:</div>
+        <div class="humidField">Humidity:</div>
+      </div>
+      <div class="results">
+        <div class="temp"></div>
+        <div class="wind"></div>
 
-        <div class="nav">
-          <button class="navbtn">
-            <a
-              href="https://nasapi-simple.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              NASA Image of The Day</a
-            >
-          </button>
-          <button class="navbtn">
-            <a
-              href="https://get-songlyrics.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Search Song Lyrics</a
-            >
-          </button>
-        </div>
-      </section>
-    </div>
+        <div class="humidity"></div>
+      </div>
+    </section>
 
-    <script
-      type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBD7CtthYF6q_N49W5hs0JEjaPqbTv7ng4&libraries=places"
-    ></script>
-    <script src="main.js"></script>
-  </body>
+    <section class="wrapper">
+      <h2>Check out my Other API's</h2>
+
+      <div class="nav">
+        <button class="navbtn">
+          <a
+            href="https://nasa-complex-api.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            NASA Facilities API</a>
+        </button>
+        <button class="navbtn">
+          <a
+            href="https://search-dictionary.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            Dictionary API</a>
+        </button>
+
+        <button class="navbtn">
+          <a
+            href="https://nasapi-simple.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">NASA Image of The Day</a>
+
+
+        </button> <button class="navbtn">
+          <a href="https://ipaddress-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            IP FINDER API</a>
+        </button>
+
+        </button> <button class="navbtn">
+          <a href="https://lovecalculator-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            The Love Calculator</a>
+        </button>
+        </button> <button class="navbtn">
+          <a href="https://get-songlyrics.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            Search Song Lyrics</a>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <script
+    type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBD7CtthYF6q_N49W5hs0JEjaPqbTv7ng4&libraries=places">
+  </script>
+  <script src="main.js"></script>
+</body>
+
 </html>
