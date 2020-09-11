@@ -1,0 +1,24 @@
+h2 {
+    margin: .25rem;
+}
+
+section.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button {
+    margin: 20px;
+    background-color: skyblue;
+    width: 250px;
+    height: 40px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+
+}

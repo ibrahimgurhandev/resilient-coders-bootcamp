@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  margin: 20px 0;
+  background: #6589F9;
+}
+
+section {
+  max-width: 750px;
+  min-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  height: 200px;
+  width: 150px;
+  margin: 5px;
+  cursor: pointer;
+
+}
+
+button {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+  background-color: darkblue;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+
+
+}
+
+.card0 {
+  background-image: url('../images/abra.png');
+}
+
+.card1 {
+  background-image: url('../images/charizard.png');
+}
+
+.card2 {
+  background-image: url("../images/charmander.png");
+}
+
+.card3 {
+  background-image: url('../images/pikachu.png');
+}
+
+.card4 {
+  background-image: url('../images/snorlax.png');
+}
+
+.card5 {
+  background-image: url('../images/zubat.png');
+}
+
+.card6 {
+  background-image: url('../images/squirtle.png');
+}
+
+.card7 {
+  background-image: url('../images/raichu.png');
+}
+
+.card8 {
+  background-image: url('../images/gyra.png');
+}
+
+.card9 {
+  background-image: url('../images/onix.png');
+}
+
+.card10 {
+  background-image: url('../images/mewtwo.png');
+}
+
+.card11 {
+
+  background-image: url('../images/milo.png');
+
+
+}
+
+.flip {
+  transform: rotateY(180deg);
+  background-image: url('../images/pokemon.png');
+
+
+}
+
+.pokeball {
+
+  background-image: url('../images/pokeball.png');
+
+
+}
+
+.card0,
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11,
+.flip,
+.pokeball {
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform-style: preserve-3d;
+  transition: all .4s linear;
+}
+
+/* transform: rotateY(180deg);
+  transition: all .4s linear;
+  transform-style: preserve-3d; */
