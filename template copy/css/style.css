@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.one{
+    border: 1px solid red;
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+
+
+.two{
+    border: 1px solid purple;
+    height: 400px;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+}

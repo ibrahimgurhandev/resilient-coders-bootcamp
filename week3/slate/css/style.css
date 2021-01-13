@@ -11,6 +11,8 @@ html {
 body {
   font-family: sans-serif;
   width: 100%;
+  max-width: 1080px;
+  margin: auto;
 }
 
 header {
@@ -58,9 +60,6 @@ header {
   color: yellow;
 }
 
-  {
-  text-align: right;
-}
 
 a {
   color: black;
